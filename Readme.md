@@ -63,10 +63,6 @@ Additional Flask Commands
 3. In the search bar, type **"Mermaid"**.
 4. Look for the extension named **"Markdown Preview Mermaid Support"** and click **Install**.
 
-## Create a Markdown File
-
-1. Create a new file in VS Code and save it with the `.md` extension (e.g., `use_case_diagrams.md`).
-2. Inside this file, paste the Mermaid code for your diagrams.
 
 ## Preview the Diagram
 
