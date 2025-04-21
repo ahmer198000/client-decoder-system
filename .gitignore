@@ -1,0 +1,28 @@
+# Python Bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment directory
+venv/
+
+# Flask instance folder
+instance/
+
+# Flask config file
+.flaskenv
+
+# SQLite database
+*.db
+
+# Migrations folder for Flask-Migrate
+migrations/
+
+# IDE files (for example, VS Code or PyCharm)
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Test coverage
+.coverage
