@@ -53,3 +53,23 @@ Additional Flask Commands
 
    flask db downgrade
    flask db upgrade
+
+# How to Install Mermaid and View Diagrams in VS Code
+
+## Install Mermaid Extension in VS Code
+
+1. Open **Visual Studio Code**.
+2. Go to the **Extensions** tab on the left sidebar (or press `Ctrl + Shift + X`).
+3. In the search bar, type **"Mermaid"**.
+4. Look for the extension named **"Markdown Preview Mermaid Support"** and click **Install**.
+
+## Create a Markdown File
+
+1. Create a new file in VS Code and save it with the `.md` extension (e.g., `use_case_diagrams.md`).
+2. Inside this file, paste the Mermaid code for your diagrams.
+
+## Preview the Diagram
+
+1. Once you have added the Mermaid code in the markdown file, press `Ctrl + Shift + V` to open the markdown preview.
+2. Alternatively, right-click on the file tab and choose **"Open Preview"**.
+3. The sequence diagrams should render in the preview window automatically.
