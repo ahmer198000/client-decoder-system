@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Welcome to the Dashboard!</h1>
+        <p class="welcome-message">You are logged in successfully.</p>
+        
+        <div class="action-links">
+            <a href="{{ url_for('create_client') }}" class="action-button">Create Client</a>
+            <a href="{{ url_for('list_decoders') }}" class="action-button">List Decoders</a>
+        </div>
+        
+        <a href="{{ url_for('logout') }}" class="logout-link">Logout</a>
+    </div>
+</body>
+</html>
