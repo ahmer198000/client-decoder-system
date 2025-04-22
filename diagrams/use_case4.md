@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     actor Admin
     participant Browser
